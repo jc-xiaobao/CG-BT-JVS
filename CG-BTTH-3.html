@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thực hành jvs</title>
+   </head>
+    <body> 
+        <h3>Viết chương trình JavaScript tính lãi suất ngân hàng theo công thức tính lãi đơn. Đầu vào là số tiền vay, lãi suất, số năm ( n ). Sau đó hiển thị kết quả của số tiền phải trả sau n năm.</h3>
+        <script> 
+           let money = parseInt(prompt('Vui lòng nhập số tiền: '));
+           let year = parseInt(prompt('Vui lòng nhập số năm: '));
+           let int = money * (6.9/100);
+           let interest = money + year * int;
+
+           document.write('Sau' + ' ' + year + ' ' + 'năm tổng số tiền lãi và gốc nhận được là: ' + interest);
+            
+        </script>
+    </body>
+</html>
