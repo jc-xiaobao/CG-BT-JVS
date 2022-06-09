@@ -10,11 +10,13 @@
     <h2>Viết ra một bức thư thật nhanh chỉ với ba đầu vào: tên người nhận, địa điểm, thời gian</h2>
 
     <script>
+        let name = prompt('Enter name: ');
         let day = prompt('Enter day: ');
         let month = prompt('Enter month: ');
         let year = prompt('Enter year: ');
+        let lo = prompt('Enter location: ');
 
-        document.write(' " Joe thương nhớ,');
+        document.write( '" ' + name + ' ' + 'thương nhớ,');
         document.write('</br>');
         document.write('Em không biết phải nói sao để anh hiểu rằng, em nhớ anh thật nhiều. Em yêu anh đến khi trái tim này tan thành nghìn mảnh. Tất cả những gì em yêu thương, em khát khao và cần đến, chính là anh, mãi mãi về sau. Em chỉ muốn ở bên anh, và anh yêu hỡi, em sẽ trở thành người phụ nữ như anh mong muốn.');
         document.write('</br>');
@@ -25,7 +27,7 @@
         document.write('Anh yêu thương, đừng bao giờ rời xa em nữa nhé. Yêu anh rất nhiều.');
         document.write('</br>');
         document.write('</br>');
-        document.write('Los Angeles, ' + 'ngày' + ' ' + day + ' ' + 'tháng' + ' ' + month + ' ' + 'năm' + ' ' + year + '. "');
+        document.write(lo + ',' + ' ' + 'ngày' + ' ' + day + ' ' + 'tháng' + ' ' + month + ' ' + 'năm' + ' ' + year + '. "');
     </script>
 </body>
 
